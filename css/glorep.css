@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#app {
+    flex: 1 0 auto;
+}
+
+.home {
+    background-image: url(/img/background-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 77px;
+    width: auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.458333333333333;
+    margin-bottom: 0px;
+}
+
+.site-description {
+    font-size: 0.8125rem;
+    line-height: 1.62;
+    padding-top: 0;
+}
+
+nav .navbar-brand {
+    font-size: 0;
+    margin-right: 3rem;
+}
+
+.entry-title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.entry-description {
+    font-size: 1.3125rem;
+    color: #333;
+}
+
+.footer {
+    border-top: 1px solid;
+    clear: both;
+    padding: 21px 30px;
+    text-align: center;
+    display: block;
+    font-size: 80%;
+    color: #999;
+    background-color: #343434;
+    border-color: #343434;
+    flex-shrink: 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:last-child:after {
+    content: url(/img/logo-unipg-footer.png);
+    margin-left: 10px;
+    position: absolute;
+    margin-top: -15px;
+}
