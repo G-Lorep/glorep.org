@@ -32,6 +32,7 @@ body {
     font-weight: 700;
     line-height: 1.458333333333333;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 .site-description {
@@ -78,4 +79,56 @@ nav .navbar-brand {
     margin-left: 10px;
     position: absolute;
     margin-top: -15px;
+}
+
+.site-info a, .site-info span {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 607px) {
+    .footer a:last-child:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 507px) {
+    .entry-title {
+        font-size: 2.5rem;
+    }
+
+    nav .navbar-brand {
+        margin-right: 5px;
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    nav .navbar-brand {
+        width: 63%;
+    }
+
+    .logo {
+        height: 64px;
+        margin-right: 10px;
+    }
+
+    .site-title {
+        margin-top: 0;
+    }
+
+    .site-description {
+        white-space: break-spaces;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    nav .navbar-brand {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .entry-title {
+        font-size: 2.0rem;
+    }
 }
